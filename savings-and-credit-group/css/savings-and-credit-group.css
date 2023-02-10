@@ -1,0 +1,60 @@
+/*
+ * Style for the header section of the savings and credit group page
+ */
+header.scg-header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+header.scg-header h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+/*
+ * Style for the table displaying the group members
+ */
+table.scg-members-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table.scg-members-table th,
+table.scg-members-table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+}
+
+table.scg-members-table th {
+    background-color: #333;
+    color: #fff;
+}
+
+/*
+ * Style for the form used to add new members
+ */
+form.scg-add-member-form {
+    margin-top: 20px;
+    text-align: center;
+}
+
+form.scg-add-member-form input[type="text"],
+form.scg-add-member-form input[type="email"],
+form.scg-add-member-form select {
+    padding: 10px;
+    font-size: 14px;
+    margin-bottom: 10px;
+    width: 300px;
+}
+
+form.scg-add-member-form input[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
